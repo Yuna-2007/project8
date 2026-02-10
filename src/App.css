@@ -1,0 +1,103 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Center page */
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #d8dc84,
+   #6fef78);
+}
+
+/* Card */
+.login-container,
+.signup-container {
+  width: 340px;
+  background: #61c2b7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(95, 181, 129, 0.1);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #030303;
+}
+
+/* Input group */
+.input-group {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+/* Input */
+.input-group input {
+  width: 100%;
+  height: 42px;
+  padding: 0 35px;
+  border: 1px solid #a61b1b;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Input focus */
+.input-group input:focus {
+  border-color: #000;
+}
+
+/* Icons */
+.left-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 16px;
+}
+
+.right-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Text */
+p {
+  text-align: center;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+label {
+  cursor: pointer;
+  font-weight: 600;
+  color: #000;
+}
+
+/* Button */
+button {
+  width: 100%;
+  height: 42px;
+  border: none;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
